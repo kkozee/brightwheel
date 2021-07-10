@@ -1,9 +1,10 @@
 # Getting Started
 1) Clone repo
-2) Ask @kkozee for a copy of the `.env` file and add it to your root directory
-3) Run `npm install`
-4) Run `npm run`
-5) Send POST request to `http://localhost:3000/email` using body:
+2) Run `cp .env-default .env`
+3) Ask @kkozee for the api keys and add them to your `.env` file
+4) Run `npm install`
+5) Run `npm run`
+6) Send POST request to `http://localhost:3000/email` using body:
 
 ```
 {
